@@ -1,0 +1,810 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+
+  /* header section */
+
+.mainheader{
+  width: 100%;
+  z-index: 1;
+  position: sticky;
+}
+
+header{
+  width: 100%;
+  height:500px;
+  position: relative;
+  z-index: 1;
+}
+nav{
+  position : sticky ;
+  height: 2em;
+  top: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  background-color: #222223;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white ;
+}
+nav ul li a{
+border-top: 2px dotted #D69003;
+border-bottom: 2px dotted #D69003;
+padding: 2px;
+}
+
+nav li img{
+  width: 200px;
+  padding-top: 5px;
+  
+}
+
+  /* hero section */
+  
+  .hero{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .video{
+    width: 100%;
+  }
+  .vtext{
+    
+   margin-top: 200px;
+   margin-left: 120px; 
+   word-spacing: 10px;
+   letter-spacing: 4px;
+  color: white;
+  width: 100%;
+  
+  }
+  .hero div{
+    color: white;
+    z-index: -1;
+    position: absolute;
+    
+  }
+  
+  
+    /* about section */
+
+  
+.parent{
+  width: 100%;
+  background-color: #222223;
+  display: flex;
+   
+}
+.parent div{
+  width: 55%;
+  margin: 5%;
+  color: white;  
+  height: 400px;
+}
+.parent div img{
+  width:100%;
+  background-size:  cover ;
+  padding-right: 5%;
+  padding-top: 30px;
+}
+
+  /* Specialities section */
+  
+body .class{
+   width: 100%;
+   background-image: url("download /slider.jpg");
+    height: 800px;
+    
+  }
+  
+  .class ,p,h1{
+    text-align: center;
+    margin:0;
+    
+  }
+.class h1{
+ padding-top :50px;
+ font-size: 50px;
+ color: white;
+ text-transform: uppercase;
+}
+ .class p{
+   color: white;
+   padding-top: 10px ;
+   margin-top: 0px;
+   font-size: 20px;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+ hr{
+   height: 4px;
+   width: 150px;
+   text-align: center ;
+   color: #E29F4F;
+   background-color: #E29F4F;
+ }
+ 
+     .abc {
+       width: 300px;
+       height: 410px;
+       border: 10px double white;
+       border-radius: 20px;
+ 
+ 
+     }
+ 
+     .abc div {
+       background-color: white;
+       border-radius: 10px;
+       border: 2px solid white;
+       height: 390px;
+ 
+     }
+ 
+     .abc img {
+       width: 280px;
+       margin-left: -2px;
+       border-radius: 13px 13px 0px 0px;
+ 
+     }
+ 
+     .abc button {
+       margin: 40px 60px;
+       padding: 20px;
+       background-color: #E29F4F;
+       font-weight: bold;
+       border-style: none;
+       align-items: center;
+     }
+ 
+ 
+   /* contact section */
+   
+   .contact {
+     background-color: #222223;
+     height: 400px;
+   }
+   
+   
+  .contact p{
+     text-align: center ;
+     padding-top :50px;
+     color: #CBC4C4C4;
+     font-size: 30px ;
+     font-weight: bold;
+   }
+.contact a{
+  color:  #E29F4F;
+  letter-spacing: 5px;
+  font-size: la;
+}
+
+    .contact button{
+     margin: 30px 60px;
+     padding :20px 40px ;
+     background-color:#E29F4F;
+     font-weight: bold;
+     border-style :none;
+     align-items : center ;
+     font-size: 25px;
+    }
+    /* location section*/
+    
+    .location{
+           background-color: #222223;width: 100%;
+           padding: 40px;
+           margin-top: 0px;
+    }
+    
+    .location  div img{
+      width: 100%;
+      height: 100%;
+      
+      transition: all 1s;
+      
+    }
+     .location div img:hover{
+       transform: rotate(8deg) scale(1.3);
+     }
+
+    .location div a{
+      text-decoration: none;
+      font-weight: bold;
+      color:#E29F4F;
+      font-weight: bold;
+      margin: 50px auto;
+      font-size: 30px;
+padding-left: 80px;
+padding-bottom: 200px;
+    }
+    .location  div{
+          overflow: hidden ;
+          width: 450px;
+          border-radius: 10px;
+          margin: 50px auto;
+        }
+
+    .location div a img{
+      width: 25px;
+    }
+    
+      /* Bank section */
+  
+.bank{
+   width: 100%;
+   background-image: url("download /slider.jpg");
+    height: 700px;
+   
+  }
+  .bkimg{
+    display: inline;
+    width: 200px;
+    height:350px;
+  }
+  
+  .bankcover img{
+    width:100%;
+  }
+  
+  
+   .bkpic{
+    width: 400px;
+    height: 550px;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 8%;
+
+  }
+  
+  .offers h1{
+    color:white;
+    padding: 2%;
+  }
+  
+  .offers{
+    padding: 1%;
+  }
+  .bank h1{
+    text-align: center;
+    margin:0;
+    
+  }
+.bank h1{
+ padding-top :10px;
+ font-size: 50px;
+ color: white;
+ text-transform: uppercase;
+ margin-bottom: 15px
+}
+.bankcover{
+  position: relative;
+  
+}
+  .bankcover p{
+    position: absolute;
+   margin-top: 0px;
+   letter-spacing: 3px;
+    color: white;
+  font-size: 70px;
+  
+  left: 300px;;
+  top: 46%;
+  }
+ hr{
+   height: 4px;
+   width: 150px;
+   text-align: center ;
+   color: #E29F4F;
+   background-color: #E29F4F;
+  
+ }
+ 
+   /* gallery section */
+   
+   
+   .galimg{
+     width: 250px;
+     height: 450px;
+    display: inline ;
+   }
+
+
+   .gallery{
+     width: 100%;
+     height: 700px;
+     background-color: #222223;
+     margin: 0px;
+    
+   }
+
+.gallery h1{
+    height: 60px;
+    color: white;
+  width: 260px;
+  font-size: 52px;
+  margin-left: 39%;
+  margin-top: 50px;
+ position: absolute;
+}
+
+.gallery img{
+   
+  margin: 50px auto ;
+  color: white;
+font-size: 50px;
+margin-left: 340px;
+width: 350px;
+  padding-top: 65px;
+}
+
+
+/* comment section*/
+
+   .comment{
+  background-image: url("download /gal.jpg");
+  width: 100%;
+  height: 900px;
+  object-fit: cover ;
+  margin: 0px;
+  
+}
+.para{
+  text-align: center;
+padding-bottom: 10px;
+color: white;
+  font-weight: bolder;
+  font-size: 35px;
+  margin: 20px 30px;
+}
+.name{
+  text-align: center;
+  margin: 10px auto;
+  color: #E29F4F;
+font-size: 50px;
+  
+}
+
+
+
+.gal img{
+  height: 60px;
+  width: 260px;
+  margin-left: 40%;
+  margin-top: 50px;
+ 
+}
+
+
+
+
+
+   /* order page */
+   
+   input{
+     width: 100px;
+     
+   }
+   
+   .card{
+     margin-top: 0;
+     padding: 3px;
+   }
+   
+   .card img{
+     width: 225px;
+     height: 260px;
+     border-radius: 20px;
+    margin-left: 7px;
+   
+   }
+   
+   .display{
+     display: flex;
+     flex-wrap: wrap;
+     row-gap: 8px;
+     column-gap: 2px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     margin: 0px;
+   }
+   
+       .ordcard{
+      background-color: white;
+      width: 32%;
+      height: 150px;
+      border-radius: 30px;
+      margin: 5px;
+      line-height: 1px;
+      display: flex;
+    /*  flex-wrap: wrap; */
+      
+    }
+    
+    .ordcard img{
+      width: 120px;
+      margin: 5% 8px;
+      border-radius: 30px;
+      padding: 0px;
+
+    }
+    
+    .ordcard li h3{
+    
+     font-size: 30px;
+     color: black;
+     text-align: left;
+    }
+    
+    .ordcard button{
+  width:30px;
+  height: 28px;
+ border-radius: 50%;
+ background-color: red;
+ text-align: right;
+
+    }
+    
+    .ordcard li{
+     font-size: 15px;
+     text-align: center;
+     color: darkgray;
+     list-style: none;
+          line-height: 14px;
+
+    }
+    
+  
+    .ordcard ul{
+      margin: 0px;
+      padding: 10px;
+    }
+    
+  
+
+   /* footer section */
+   
+.footer{
+  width: 100%;
+  height: 600px;
+  background-color: #000000D6;
+  justify-content: center;
+  align-items: center ;
+  position : relative ;
+  padding-top: 50px;
+}
+.foot{
+  
+  height: 350px;
+  width: 50%;
+  position : absolute ;
+  top:20%;
+  left : 30%;
+ 
+}
+.foot img,i{
+
+text-align: center;
+display: flex;
+width: 220px;
+}
+.foot span{
+  font-weight: bold;
+}
+
+.fimg{
+  width: 150px;
+  margin-left: 90px;
+}
+
+.foot img{
+  display: inline;
+}
+
+.foot p{
+ padding: 25px;
+ justify-content: flex-start;
+ display: flex;
+ font-size: 20px;
+ position : absolute;
+ left: -25px;
+ color: white;
+}
+.foot a{
+  color: white;
+}
+
+.foot i{
+  
+  font-size: 40px;
+  color: white;
+  width: 50px;
+  
+}
+.fa-facebook{
+  margin-left: 150px;
+}
+
+.end{
+       background-color: #222223;
+width: 100%;
+height: 80px;
+position: relative;
+
+}
+.end p{
+  
+  width: 80px;
+  height: 80px;
+  padding-bottom: 30px;
+  border-radius: 40px;
+  font-size: 30px;
+  margin: 0px auto 20px auto;
+color:white;
+transform: rotate(270deg);
+text-decoration: none;
+}
+.endd{
+     background-color: #E29F4F;
+width: 100%;
+height: 60px;
+position: relative;
+}
+.endd p{
+  text-align: center ;
+  
+  padding-top: 20px ;
+}
+.end p a{
+  color: #222223;
+}
+
+
+/*  order page  */
+
+.header{
+  width: 100%;
+  height: 600px;
+}
+.items h1,p{
+  text-align: left;
+  font-stretch: 20px;
+}
+.items p{
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.items{
+  padding: 20px;
+  margin: 0px;;
+}
+
+.items input{
+width: 85%;
+background-color: #CFCFE1BA;
+height: 40px;
+border-radius: 8px;
+}
+.app{
+  background-color: red;
+  width: 100%;
+  
+  position: relative;
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+}
+.app img{
+  width: 80px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.app p{
+  color: white;
+  font-weight: bold;
+  text-align: center ;
+}
+.app button{
+  background-color: white;
+  border-radius: 30px;
+  color: red;
+  padding: 10px 25px;
+}
+.logo{
+  display: flex;
+  padding: 15px;
+}
+.logo div{
+  display: inline-block;
+  background-color: white;
+}
+.logo button img{
+  width :20px;
+  display: flex;
+  
+}
+.logo button span{
+  font-weight: bold;
+}
+
+.logo button{
+  background-color: red;
+  margin: 5px ;
+}
+
+
+.logo>img{
+ 
+    width: 100px;
+   margin-left: 100px;
+    border-radius: 50px;
+    margin-bottom: -50px;
+   z-index: 1;
+  }
+
+.red{
+    background-color: red;
+
+}
+.logo button{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+background-color: red#FF0000;
+}
+
+.cover img{
+  width: 980px;
+}
+    .nav ul{
+      display: flex;
+      list-style: none;
+      
+    }
+    .nav{
+      overflow-x: scroll;
+      background-color: red;
+      color: white;
+      font-size: 25px;
+      height: 80px;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+   .nav ul li{
+     padding-right: 30px; 
+     padding-left: 30px; 
+
+    }
+    
+    .nav li:hover{
+      background-color: #E44242;
+      
+    }
+    nav{
+      position : fixed ;
+    }
+    
+    .items{
+      height: 1700px;
+    }
+    
+   
+    
+    
+    /* bank page*/
+    
+   .bank .bankslider img{
+     width:  700px;
+    
+     height: 800px ;
+   }
+   
+      .bank .bankslider  {
+       
+  
+      }
+   .carousel-inner{
+     bottom: -20%;
+   }
+   
+   
+    .bankcover p{
+     font-size: 50px;
+     font-weight: bold;
+     justify-content: center ;
+     align-items: center ;
+     color: white;
+    }
+     .bankcover img{
+       width: px;
+     }
+
+    .bankcover h1{
+       text-align: center;
+       letter-spacing: 8px;
+       line-height: 50px;
+       padding-top: 100px;
+        color: white;
+
+    }
+    
+        .mainfooter{
+      width: 22%;
+      display: inline-block;
+  line-height: 30px;
+  
+      padding-left: 10px;
+      margin-top: 0px;
+      
+    }
+    .mainfooter span{
+      padding-left: 100px;
+      color:#E29F4F;
+
+    }
+    .mainfooter a{
+      color: white ;
+      text-decoration: none;
+      font-weight: bolder;
+      margin: 10px;
+    }
+    .mainfooter h2{
+      color:#E29F4F;
+
+    }
+    .mainfooter button{
+        width :120px;
+        display: flex;
+        padding: 8px;
+        border-radius: 2px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        background-color: #E29F4F;
+        font-weight: bold;
+        padding: px px;
+    }
+    .font i{
+      
+      color: white;
+      margin-top: 100px;
+      right: 0px;
+      float: left;
+ 
+      padding: 10px;
+    }
+    
+  .downfooter{
+     background-image: url("download /footer.png") ;
+padding-top: 50px;
+      width: 100%;
+     
+      justify-content: center;
+ height: 500px;
+display: flex;
+color: white;
+    }
+    
+
+/* bootstrap*/
+
+
+.carousel-item{
+  margin: 60px  !important;
+}
+
+
+
+
